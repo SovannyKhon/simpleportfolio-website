@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.edu-container{
+    background-color: #5681a7;
+    width: 100%;
+    height: 200px;
+}
+.edu-container p{
+    font-style: italic;
+}
+.nav-logo{
+    text-decoration: none;
+    color: var(--extra-light);
+    font-size: 1.5rem;
+    color: var(--extra-light);
+    font-size: 1.5rem;
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo a {
+    text-decoration: none;
+}
+i{
+    color: white;
+}
+a{
+    color: white;
+}
+header .edu-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header .edu-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.edu-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: var(--extra-light);
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.edu-content h1{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 3rem;
+    color: white;
+}
+.edu-content p{
+    text-align: center;
+    color: white;
+}
+
+
+@media (min-width: 572px){
+    .edu-photo{
+        height: 100%;
+    }
+}
+
+
+.edu-photo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    
+}
+.edu-card{
+    height: 100%;
+}
+
+.edu-card .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
